@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataLib.dir/src/Data.cpp.obj"
   "CMakeFiles/DataLib.dir/src/Data.cpp.obj.d"
+  "CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.obj"
+  "CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.obj.d"
   "libDataLib.a"
   "libDataLib.pdb"
 )

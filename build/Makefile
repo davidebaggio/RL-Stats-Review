@@ -165,6 +165,30 @@ src/Data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataLib.dir\build.make CMakeFiles/DataLib.dir/src/Data.cpp.s
 .PHONY : src/Data.cpp.s
 
+src/HeatMapPrompt.obj: src/HeatMapPrompt.cpp.obj
+.PHONY : src/HeatMapPrompt.obj
+
+# target to build an object file
+src/HeatMapPrompt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataLib.dir\build.make CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.obj
+.PHONY : src/HeatMapPrompt.cpp.obj
+
+src/HeatMapPrompt.i: src/HeatMapPrompt.cpp.i
+.PHONY : src/HeatMapPrompt.i
+
+# target to preprocess a source file
+src/HeatMapPrompt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataLib.dir\build.make CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.i
+.PHONY : src/HeatMapPrompt.cpp.i
+
+src/HeatMapPrompt.s: src/HeatMapPrompt.cpp.s
+.PHONY : src/HeatMapPrompt.s
+
+# target to generate assembly for a file
+src/HeatMapPrompt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataLib.dir\build.make CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.s
+.PHONY : src/HeatMapPrompt.cpp.s
+
 src/Start.obj: src/Start.cpp.obj
 .PHONY : src/Start.obj
 
@@ -202,6 +226,9 @@ help:
 	@echo ... src/Data.obj
 	@echo ... src/Data.i
 	@echo ... src/Data.s
+	@echo ... src/HeatMapPrompt.obj
+	@echo ... src/HeatMapPrompt.i
+	@echo ... src/HeatMapPrompt.s
 	@echo ... src/Start.obj
 	@echo ... src/Start.i
 	@echo ... src/Start.s

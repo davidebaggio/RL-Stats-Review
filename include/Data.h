@@ -3,12 +3,12 @@
 
 #include <iostream>
 #include <vector>
+#include "Pos.h"
+#include "HeatMapPrompt.h"
 
-struct Pos
-{
-	int x, y;
-};
-
+/**
+ * @brief Class Data, stores number of: Goals, Saves, Assists, Shots, Points and Pos
+ */
 class Data
 {
 private:
@@ -18,11 +18,13 @@ private:
 	int shots;
 	int points;
 	std::vector<Pos> positions;
+	HeatMap map;
 
 public:
 	Data();
 
-	// getters and setters
+	inline HeatMap &getHeatMap() { return map; }
+
 	inline int getGoals() { return goals; }
 	inline void setGoals(int nGoals) { goals += nGoals; }
 
@@ -42,6 +44,14 @@ public:
 	void addPos(Pos);
 };
 
+// helper functions
+
+/**
+ * @brief Overload of operator <<
+ * Prints the current statistics of the match.
+ *
+ * @return std::ostream&
+ */
 std::ostream &operator<<(std::ostream &, Data &);
 
 #endif // DATA_H

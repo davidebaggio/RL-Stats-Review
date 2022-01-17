@@ -122,4 +122,6 @@ CMakeFiles/DataLib.dir/src/Data.cpp.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+ C:/Users/Davide\ Baggio/Desktop/RL-Stats-Review/include/Pos.h \
+ C:/Users/Davide\ Baggio/Desktop/RL-Stats-Review/include/HeatMapPrompt.h

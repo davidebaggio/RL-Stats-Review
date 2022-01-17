@@ -8,11 +8,13 @@ Data::Data()
 	saves = 0;
 	shots = 0;
 	points = 0;
+	map = HeatMap();
 }
 
 void Data::addPos(Pos posXY)
 {
 	positions.push_back(posXY);
+	map.pitchUpdate(posXY.x, posXY.y);
 }
 
 std::ostream &operator<<(std::ostream &os, Data &data)
@@ -29,5 +31,8 @@ std::ostream &operator<<(std::ostream &os, Data &data)
 	{
 		os << "\n\tx: " << temp.x << ",\ty: " << temp.y;
 	}
+	os << "\n";
+	/* os << "\n\n"
+	   << data.getHeatMap().scaleBy2() << "\n\n"; */
 	return os;
 }

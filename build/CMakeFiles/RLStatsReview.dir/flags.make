@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/RLStatsReview.dir/includes_CXX.rsp
 
-CXX_FLAGS =   -std=c++11
+CXX_FLAGS = -O2 -g -DNDEBUG   -std=c++11
 
