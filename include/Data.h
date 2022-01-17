@@ -1,6 +1,7 @@
 #ifndef DATA_H
 #define DATA_H
 
+#include <iostream>
 #include <vector>
 
 struct Pos
@@ -36,6 +37,11 @@ public:
 
 	inline int getPoints() { return points; }
 	inline void setPoints(int nPoints) { points += nPoints; }
+
+	inline std::vector<Pos> &getPositions() { return positions; }
+	void addPos(Pos);
 };
+
+std::ostream &operator<<(std::ostream &, Data &);
 
 #endif // DATA_H
