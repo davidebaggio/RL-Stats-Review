@@ -1,0 +1,8 @@
+
+#cmake cache
+
+build/CMakeCache.txt
+
+#executable
+
+build/*.exe
