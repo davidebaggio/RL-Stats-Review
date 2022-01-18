@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/david/Desktop/RL-Stats-Review/src/Data.cpp" "CMakeFiles/DataLib.dir/src/Data.cpp.obj" "gcc" "CMakeFiles/DataLib.dir/src/Data.cpp.obj.d"
-  "C:/Users/david/Desktop/RL-Stats-Review/src/HeatMapPrompt.cpp" "CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.obj" "gcc" "CMakeFiles/DataLib.dir/src/HeatMapPrompt.cpp.obj.d"
+  "C:/Users/david/Desktop/RL-Stats-Review/Injector/Injector.cpp" "CMakeFiles/Injector.dir/Injector/Injector.cpp.obj" "gcc" "CMakeFiles/Injector.dir/Injector/Injector.cpp.obj.d"
   )
 
 # Targets to which this target links.

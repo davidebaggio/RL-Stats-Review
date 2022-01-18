@@ -19,4 +19,8 @@ add_executable(RLStatsReview
 	src/Start.cpp
 )
 
+add_executable(Injector
+	Injector/Injector.cpp
+)
+
 target_link_libraries(RLStatsReview DataLib)

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Davide Baggio/Desktop/RL-Stats-Review/src/Start.cpp" "CMakeFiles/RLStatsReview.dir/src/Start.cpp.obj" "gcc" "CMakeFiles/RLStatsReview.dir/src/Start.cpp.obj.d"
+  "C:/Users/david/Desktop/RL-Stats-Review/src/Start.cpp" "CMakeFiles/RLStatsReview.dir/src/Start.cpp.obj" "gcc" "CMakeFiles/RLStatsReview.dir/src/Start.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Davide Baggio/Desktop/RL-Stats-Review/build/CMakeFiles/DataLib.dir/DependInfo.cmake"
+  "C:/Users/david/Desktop/RL-Stats-Review/build/CMakeFiles/DataLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
