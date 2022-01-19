@@ -1,0 +1,1 @@
+g++ src/start.cpp src/HeatMapPrompt.cpp src/Data.cpp -o RLSTATS.exe

@@ -9,9 +9,7 @@ int main(int argc, char *argv[])
 {
 	srand(time(NULL));
 	Data data = Data();
-	/* Pos posXY;
-	posXY.x = 9;
-	posXY.y = 17; */
+
 	Pos posXY;
 	for (int i = 0; i < 300; i++)
 	{
@@ -30,4 +28,6 @@ int main(int argc, char *argv[])
 		std::cout << data.getHeatMap().scaleByFactor(5);
 	else if (strcmp(argv[1], "-s10") == 0)
 		std::cout << data.getHeatMap().scaleByFactor(10);
+	std::string str;
+	std::cin >> str;
 }

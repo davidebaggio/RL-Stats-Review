@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RL-Stats-Review",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DataLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataLib-2fedba87f6dbc58a4da2.json",
+					"name" : "DataLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Injector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Injector-65979605d350617bf71b.json",
+					"name" : "Injector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RLStatsReview::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RLStatsReview-1253877bab63d42703f3.json",
+					"name" : "RLStatsReview",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Davide Baggio/Desktop/RL-Stats-Review/build",
+		"source" : "C:/Users/Davide Baggio/Desktop/RL-Stats-Review"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
